@@ -1,0 +1,64 @@
+.action-bar__wrapper {
+    height: 100%;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.action-btn {
+    height: 36px;
+    width: 36px;
+    min-width: 28px;
+    min-height: 28px;
+    padding: 1px;
+    margin: 0 6px;
+    border-radius: 100%;
+
+    background-color: transparent;
+    border: 0px none;
+    user-select: none;
+    outline: none;
+}
+.action-btn:hover {
+    background-color: rgba(43, 106, 115, 0.038);
+}
+.action-btn:active {
+    background-color: rgba(43, 106, 115, 0.38);
+}
+.action-btn * {
+    vertical-align: middle;
+}
+
+.mdc-menu {
+    background-color: #fff;
+    transform-origin: right top 0 !important;
+    top: 0px !important;
+    right: 0px;
+    left: auto !important;
+}
+.mdc-menu-item input {
+    display: none;
+}
+
+.separator {
+    width: 1px;
+    height: 16px;
+    margin: 0 6px;
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+.syncing {
+    animation:spin 1s linear infinite;
+}
+@keyframes spin { 100% { transform:rotate(360deg); }}
+
+
+.icons-list > .anticon {
+    margin-right: 6px;
+    font-size: 24px;
+}
