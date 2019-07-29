@@ -1,0 +1,11 @@
+.mr-container {
+    position: relative;
+    outline: none;
+    background-color: navajowhite;
+}
+
+.selection-area {
+    position: absolute;
+    border: 1px solid #03a9f4;
+    background-color: rgba(3, 169, 244, .08);
+}
